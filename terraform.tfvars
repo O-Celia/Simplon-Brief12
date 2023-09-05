@@ -1,0 +1,16 @@
+resource_group = "Brief12-Celia"
+location = "westeurope"
+virtual_network = "vnet"
+virtual_network_address_space = ["10.0.0.0/16"]
+subnet_name = "subnet"
+subnet_app_address_prefix = ["10.0.2.0/24"]
+nic_app_name                  = "nic"
+nsg_app_name                  = "nsg"
+public_ip_nat_name            = "public-ip-nat"
+nat_gateway_name              = "nat-gw"
+subnet_gateway_name           = "subnet-gateway"
+public_ip_gateway_name        = "public-ip-gateway"
+application_gateway_name      = "gateway"
+aks_cluster_name = "cluster-B12"
+subnet_gateway_address_prefix = ["10.0.1.0/24"]
+nic_app_config = "nic_app_config"
