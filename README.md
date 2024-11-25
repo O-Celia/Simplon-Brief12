@@ -26,6 +26,7 @@ Le module gère la création des éléments réseau, tels que :
 - NAT Gateway pour la gestion des IP publiques.
 
 ## 2. Fonctionnalités Principales
+
 ### a. Réseau :
 
 Création d'un réseau virtuel (VNet) avec des sous-réseaux dédiés :
@@ -53,7 +54,7 @@ Déploiement d’un cluster Kubernetes géré par Azure (AKS) :
 Logiciels nécessaires :
 - Terraform (version ≥ 1.0).
 - Azure CLI pour se connecter à votre compte Azure.
-Compte Azure avec les permissions nécessaires pour créer des ressources.
+Compte Azure avec les permissions nécessaires pour créer des ressources. <br/>
 Configuration initiale :
 - Connectez-vous à Azure avec az login.
 - Configurez un backend distant (optionnel) pour stocker l’état Terraform.
