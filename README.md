@@ -55,6 +55,7 @@ Logiciels nécessaires :
 - Terraform (version ≥ 1.0).
 - Azure CLI pour se connecter à votre compte Azure.
 Compte Azure avec les permissions nécessaires pour créer des ressources. <br/>
+
 Configuration initiale :
 - Connectez-vous à Azure avec az login.
 - Configurez un backend distant (optionnel) pour stocker l’état Terraform.
